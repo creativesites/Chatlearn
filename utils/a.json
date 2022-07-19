@@ -1,0 +1,94 @@
+{
+    "fields": {
+        "google": {
+            "structValue": {
+                "fields": {
+                    "richResponse": {
+                        "structValue": {
+                            "fields": {
+                                "items": {
+                                    "listValue": {
+                                        "values": [
+                                            {
+                                                "structValue": {
+                                                    "fields": {
+                                                        "simpleResponse": {
+                                                            "structValue": {
+                                                                "fields": {
+                                                                    "textToSpeech": {
+                                                                        "stringValue": "Hi, how is it going?",
+                                                                        "kind": "stringValue"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "kind": "structValue"
+                                                        }
+                                                    }
+                                                },
+                                                "kind": "structValue"
+                                            },
+                                            {
+                                                "structValue": {
+                                                    "fields": {
+                                                        "simpleResponse": {
+                                                            "structValue": {
+                                                                "fields": {
+                                                                    "textToSpeech": {
+                                                                        "stringValue": "Here's a picture of a cat",
+                                                                        "kind": "stringValue"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "kind": "structValue"
+                                                        }
+                                                    }
+                                                },
+                                                "kind": "structValue"
+                                            },
+                                            {
+                                                "structValue": {
+                                                    "fields": {
+                                                        "basicCard": {
+                                                            "structValue": {
+                                                                "fields": {
+                                                                    "image": {
+                                                                        "structValue": {
+                                                                            "fields": {
+                                                                                "accessibilityText": {
+                                                                                    "stringValue": "A cat",
+                                                                                    "kind": "stringValue"
+                                                                                },
+                                                                                "url": {
+                                                                                    "stringValue": "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/imgs/160204193356-01-cat-500.jpg",
+                                                                                    "kind": "stringValue"
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "kind": "structValue"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "kind": "structValue"
+                                                        }
+                                                    }
+                                                },
+                                                "kind": "structValue"
+                                            }
+                                        ]
+                                    },
+                                    "kind": "listValue"
+                                }
+                            }
+                        },
+                        "kind": "structValue"
+                    },
+                    "expectUserResponse": {
+                        "boolValue": true,
+                        "kind": "boolValue"
+                    }
+                }
+            },
+            "kind": "structValue"
+        }
+    }
+}
