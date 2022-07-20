@@ -10,7 +10,7 @@ try {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
-        console.log('db connected') 
+        console.log('db connected webhook') 
   } catch (error) {
     console.log(error)
   }
@@ -64,6 +64,9 @@ expressApp.post('/fulfillment', (req, res)=>{
     app.intent('Default Fallback Intent', conv => {
     conv.ask(`I didn't understand. Can you tell me something else?`)
     })
+})
+expressApp.get('/', (req, res)=>{
+  res.send('Webhook resp')
 })
 
 expressApp.listen(8080)
