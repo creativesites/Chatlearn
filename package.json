@@ -5,9 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node webhook.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gcloud builds submit --tag gcr.io/dialogflowcookbook/dialogflow",
-    "deploy": "gcloud run deploy --image gcr.io/dialogflowcookbook/dialogflow --platform managed"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
